@@ -1,0 +1,10 @@
+---
+applications:
+- name: DemoService-16.04.05
+  host: demoservices
+  path: \build\libs\DemoService-0.0.1-SNAPSHOT.jar
+  memory: 500MB
+  disk_quota: 500MB
+  instances: 1
+  services:
+    - devMongoDB
